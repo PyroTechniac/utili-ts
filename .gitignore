@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# typescript cache/build
+.cache
+dist/**
+
+# vscode files
+.vscode/
