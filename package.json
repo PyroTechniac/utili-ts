@@ -10,7 +10,7 @@
         "lint": "npx eslint src --ext .ts",
         "lint:fix": "npx eslint src --ext .ts --fix",
         "clean": "rimraf dist/ .cache/",
-        "test": "node ./test/index.js"
+        "test": "tape ./test/*.js"
     },
     "dependencies": {},
     "devDependencies": {
